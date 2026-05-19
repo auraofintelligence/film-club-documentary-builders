@@ -15,6 +15,21 @@
     const siteNav = document.querySelector(".site-nav");
     if (!siteNav || siteNav.dataset.builderMenuReady === "true") return;
 
+    const flowOrder = [
+      "film-profile.html",
+      "research-angle.html",
+      "source-trail.html",
+      "interview-questions.html",
+      "viewing-notes.html",
+      "scene-analysis.html",
+      "character-subject.html",
+      "theme-motif.html",
+      "runsheet.html",
+      "event-notes.html",
+      "follow-up-action.html",
+      "handoff.html"
+    ];
+    const flowRank = new Map(flowOrder.map((file, index) => [file, index]));
     const links = Array.from(siteNav.querySelectorAll("a"));
     const builderLinks = [];
     const primaryLinks = [];
@@ -30,6 +45,7 @@
 
     if (builderLinks.length < 4) return;
 
+    builderLinks.sort((a, b) => linkRank(a) - linkRank(b));
     const activeBuilder = builderLinks.find((link) => link.classList.contains("active"));
     siteNav.innerHTML = "";
     primaryLinks.forEach((link) => siteNav.appendChild(link));
@@ -53,6 +69,11 @@
     });
 
     siteNav.dataset.builderMenuReady = "true";
+
+    function linkRank(link) {
+      const file = new URL(link.href, window.location.href).pathname.split("/").pop();
+      return flowRank.has(file) ? flowRank.get(file) : 999;
+    }
   }
 
   function enhanceMobileMenu() {
@@ -102,4 +123,3 @@
     return pathname.replace(/\/index\.html$/, "/").replace(/\/$/, "/index.html");
   }
 })();
-

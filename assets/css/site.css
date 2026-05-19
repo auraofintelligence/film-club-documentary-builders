@@ -392,11 +392,11 @@ a {
   box-shadow: inset 0 4px 0 var(--gold);
 }
 
-.builder-card[data-lane="Documentary understanding"] {
+.builder-card[data-lane="Setup and evidence"] {
   box-shadow: inset 0 4px 0 var(--green);
 }
 
-.builder-card[data-lane="Research and evidence"] {
+.builder-card[data-lane="Viewing and analysis"] {
   box-shadow: inset 0 4px 0 var(--teal);
 }
 
@@ -772,4 +772,3 @@ a {
     transition: none !important;
   }
 }
-

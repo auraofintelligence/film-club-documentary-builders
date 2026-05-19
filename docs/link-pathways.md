@@ -9,24 +9,40 @@ This repo is intentionally multi-page. The index is a gateway, not the whole too
 3. Each builder page has previous/next links for sequential review.
 4. Generated Markdown can be copied, downloaded, or handed to a future agent.
 
-## Documentary Understanding Lane
+## Full Flow
 
-Use this when the goal is to understand the film itself before discussing it publicly.
+Use this order when you want the tool to behave like a documentary workflow rather than a loose folder of forms.
 
 1. Film profile
-2. Viewing notes
-3. Scene analysis
-4. Character / subject
-5. Theme and motif
+2. Documentary research angle
+3. Source trail
+4. Interview questions
+5. Viewing notes
+6. Scene analysis
+7. Character / subject
+8. Theme and motif
+9. Discussion run sheet
+10. Screening / public event
+11. Follow-up action
+12. Agent handoff
 
-## Research And Evidence Lane
+## Setup And Evidence Lane
 
-Use this when claims, context, omissions or uncertainty need a source trail.
+Use this before the viewing or before the film is complete. It sets up the film, the claims and the questions without pretending a finished screening has already happened.
 
-1. Documentary research angle
-2. Source trail
-3. Interview questions
-4. Agent handoff
+1. Film profile
+2. Documentary research angle
+3. Source trail
+4. Interview questions
+
+## Viewing And Analysis Lane
+
+Use this after there is something to watch: a rough cut, screening copy, festival version, public release or completed film.
+
+1. Viewing notes
+2. Scene analysis
+3. Character / subject
+4. Theme and motif
 
 ## Public Discussion Lane
 
@@ -37,8 +53,18 @@ Use this when a screening, article, episode, workshop or public follow-up needs 
 3. Follow-up action
 4. Agent handoff
 
+## Optional Research Return
+
+After viewing, loop back to source trail or interview questions if a scene reveals a new claim, gap, contradiction or missing voice.
+
+1. Viewing notes
+2. Scene analysis
+3. Source trail
+4. Interview questions
+
 ## Cross Links That Matter
 
+- Film profile can feed research angle, source trail and interview prep before anyone watches a finished cut.
 - Viewing notes can feed scene analysis, theme and motif, source trail and runsheet pages.
 - Scene analysis can feed source trails, interview questions and public discussion prompts.
 - Source trails should feed research angles, public follow-up pages and agent handoffs.
@@ -49,4 +75,3 @@ Use this when a screening, article, episode, workshop or public follow-up needs 
 
 - Public candidates: film title, public screening details, reviewed source links, public discussion questions, public-safe follow-up actions.
 - Private or review-needed: personal notes, sensitive contact details, protected places, cultural permissions, unverified claims, raw local paths, internal planning and unresolved disagreements.
-

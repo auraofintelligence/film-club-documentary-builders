@@ -13,13 +13,13 @@ No server, database or login is required. The builders run in the browser, autos
 ## Builder Pages
 
 - [Film profile](./builders/film-profile.html)
+- [Documentary research angle](./builders/research-angle.html)
+- [Source trail](./builders/source-trail.html)
+- [Interview questions](./builders/interview-questions.html)
 - [Viewing notes](./builders/viewing-notes.html)
 - [Scene analysis](./builders/scene-analysis.html)
 - [Character / subject](./builders/character-subject.html)
 - [Theme and motif](./builders/theme-motif.html)
-- [Documentary research angle](./builders/research-angle.html)
-- [Source trail](./builders/source-trail.html)
-- [Interview questions](./builders/interview-questions.html)
 - [Discussion run sheet](./builders/runsheet.html)
 - [Screening / public event](./builders/event-notes.html)
 - [Follow-up action](./builders/follow-up-action.html)
@@ -45,4 +45,3 @@ Drafts are clearly labelled as drafts. Source and date fields are visible where 
 - [Link pathways](./docs/link-pathways.md)
 - [Public/private boundaries](./docs/public-private-boundaries.md)
 - [Repo map](./docs/repo-map.md)
-

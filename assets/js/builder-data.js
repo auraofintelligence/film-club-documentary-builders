@@ -1,7 +1,7 @@
 (function () {
   const lanes = {
-    documentary: "Documentary understanding",
-    research: "Research and evidence",
+    setup: "Setup and evidence",
+    viewing: "Viewing and analysis",
     public: "Public discussion",
     handoff: "Agent handoff"
   };
@@ -21,7 +21,7 @@
       label: "Film Profile",
       title: "Film profile builder",
       heading: "Create a documentary profile before deeper notes scatter.",
-      lane: lanes.documentary,
+      lane: lanes.setup,
       prefix: "film-profile",
       destination: "Save to drafts/film-profiles/ or the relevant film folder.",
       note: "Title, claim, makers, representation, gaps and source starting points.",
@@ -64,10 +64,10 @@
       label: "Viewing Notes",
       title: "Viewing notes builder",
       heading: "Capture the viewing while the evidence is still fresh.",
-      lane: lanes.documentary,
+      lane: lanes.viewing,
       prefix: "viewing-notes",
       destination: "Save to drafts/viewing-notes/ or the relevant film folder.",
-      note: "Immediate notes, strongest scenes, uncertainties and discussion seeds.",
+      note: "Use after a full viewing, rough cut, screening copy or completed film.",
       art: "../assets/img/film-reel.webp",
       titleField: "filmTitle",
       fields: [
@@ -108,7 +108,7 @@
       label: "Scene Analysis",
       title: "Scene analysis builder",
       heading: "Separate what the scene proves from what it only makes us feel.",
-      lane: lanes.documentary,
+      lane: lanes.viewing,
       prefix: "scene-analysis",
       destination: "Save to drafts/scene-analysis/.",
       note: "Timestamp, evidence, implication, uncertainty, film language and public use.",
@@ -150,7 +150,7 @@
       label: "Character / Subject",
       title: "Character / subject builder",
       heading: "Track how a real person or group is represented.",
-      lane: lanes.documentary,
+      lane: lanes.viewing,
       prefix: "subject",
       destination: "Save to drafts/subjects/.",
       note: "Representation, voice, agency, risk, missing context and interview questions.",
@@ -197,7 +197,7 @@
       label: "Theme And Motif",
       title: "Theme and motif builder",
       heading: "Turn repeated ideas and images into testable discussion notes.",
-      lane: lanes.documentary,
+      lane: lanes.viewing,
       prefix: "theme-motif",
       destination: "Save to drafts/themes/.",
       note: "Themes, motifs, repeated images, counter-evidence and audience questions.",
@@ -238,7 +238,7 @@
       label: "Research Angle",
       title: "Documentary research angle builder",
       heading: "Choose the question before opening too many tabs.",
-      lane: lanes.research,
+      lane: lanes.setup,
       prefix: "research-angle",
       destination: "Save to drafts/research-angles/.",
       note: "Research question, claim to test, known sources, missing sources and expertise needed.",
@@ -283,7 +283,7 @@
       label: "Source Trail",
       title: "Source trail builder",
       heading: "Record what a source proves, and what it does not prove.",
-      lane: lanes.research,
+      lane: lanes.setup,
       prefix: "source-trail",
       destination: "Save to drafts/source-trails/.",
       note: "Source details, access date, linked claim, support, limits and citation notes.",
@@ -328,7 +328,7 @@
       label: "Interview Questions",
       title: "Interview question builder",
       heading: "Prepare questions for the right person, not just the loudest take.",
-      lane: lanes.research,
+      lane: lanes.setup,
       prefix: "interview-questions",
       destination: "Save to drafts/interviews/.",
       note: "Questions for filmmakers, subjects, critics, local experts and audiences.",
@@ -722,10 +722,28 @@
     return slug || "draft";
   }
 
+  const flowOrder = [
+    "film-profile",
+    "research-angle",
+    "source-trail",
+    "interview-questions",
+    "viewing-notes",
+    "scene-analysis",
+    "character-subject",
+    "theme-motif",
+    "runsheet",
+    "event-notes",
+    "follow-up-action",
+    "handoff"
+  ];
+
+  const builderLookup = Object.fromEntries(builders.map((item) => [item.key, item]));
+  const orderedBuilders = flowOrder.map((key) => builderLookup[key]).filter(Boolean);
+
   const api = {
     lanes,
-    builders,
-    builderMap: Object.fromEntries(builders.map((item) => [item.key, item])),
+    builders: orderedBuilders,
+    builderMap: Object.fromEntries(orderedBuilders.map((item) => [item.key, item])),
     dateStamp,
     slugify,
     clean
@@ -733,4 +751,3 @@
 
   window.FilmClubDocumentaryBuilders = api;
 })();
-

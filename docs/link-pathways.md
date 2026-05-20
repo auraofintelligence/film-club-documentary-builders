@@ -14,41 +14,41 @@ This repo is intentionally multi-page. The index is a gateway, not the whole too
 Use this order when you want the tool to behave like a documentary workflow rather than a loose folder of forms.
 
 1. Film profile
-2. Documentary research angle
-3. Source trail
-4. Character / subject
-5. Theme and motif
+2. Theme and motif
+3. Documentary research angle
+4. Source trail
+5. Character / subject
 6. Interview questions
-7. Viewing notes
-8. Scene analysis
+7. Scene analysis
+8. Run sheet
 9. Festival entry navigator
-10. Discussion run sheet
+10. Viewing notes
 11. Screening / public event
 12. Follow-up action
 13. Agent handoff
 
 ## Foundation Lane
 
-Use this before the viewing or before the film is complete. It sets up the film and the research question without pretending a finished screening has already happened.
+Use this before the work expands. It sets up the film and the theme/motif frame before the research question is narrowed.
 
 1. Film profile
-2. Documentary research angle
+2. Theme and motif
 
 ## Research Map Lane
 
-Use this while the project is still being understood. It gathers sources, people, themes and questions before anyone treats the film as complete.
+Use this while the project is still being understood. It gathers the research angle, sources, people and questions before any public plan hardens.
 
-1. Source trail
-2. Character / subject
-3. Theme and motif
+1. Documentary research angle
+2. Source trail
+3. Character / subject
 4. Interview questions
 
-## Watchable Cut Review Lane
+## Scene Analysis And Assembly Lane
 
-Use this after there is something to watch: a rough cut, screening copy, festival version, public release or completed film.
+Use this when the scene evidence needs to become a usable film order.
 
-1. Viewing notes
-2. Scene analysis
+1. Scene analysis
+2. Run sheet
 
 ## Festival Entry Lane
 
@@ -58,11 +58,11 @@ Use this after the film is close enough to submit or when a rough cut needs a fe
 2. Source trail if the listing or rules need checking
 3. Agent handoff if someone needs to build a shortlist
 
-## Public Discussion Lane
+## Viewing And Follow-Up Lane
 
-Use this when a screening, article, episode, workshop or public follow-up needs structure.
+Use this when a viewing, screening, article, workshop or public follow-up needs to be recorded after the plan exists.
 
-1. Discussion run sheet
+1. Viewing notes
 2. Screening / public event
 3. Follow-up action
 
@@ -83,8 +83,9 @@ After viewing, loop back to source trail or interview questions if a scene revea
 
 ## Cross Links That Matter
 
-- Film profile can feed research angle, source trail, subject mapping, theme mapping and interview prep before anyone watches a finished cut.
-- Viewing notes can feed scene analysis, theme and motif, source trail and runsheet pages.
+- Film profile can feed theme and motif, research angle, source trail, subject mapping and interview prep.
+- Theme and motif can feed research angle, scene analysis, interview questions and run sheet prompts.
+- Viewing notes can feed event notes, follow-up pages and future research returns.
 - Scene analysis can feed source trails, interview questions and public discussion prompts.
 - Festival entry notes can feed public event planning, press kits, follow-up actions and agent shortlist tasks.
 - Source trails should feed research angles, public follow-up pages and agent handoffs.

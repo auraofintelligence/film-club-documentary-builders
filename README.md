@@ -2,7 +2,7 @@
 
 A local, static, multi-page Markdown builder toolkit for Film Club documentary planning.
 
-It helps turn film notes, documentary research, scene evidence, source trails, interview prep, discussion run sheets, screening notes and agent handoffs into clean `.md` files.
+It helps turn film notes, documentary research, scene evidence, source trails, interview prep, film assembly run sheets, screening notes and agent handoffs into clean `.md` files.
 
 ## Open The Tool
 
@@ -13,15 +13,15 @@ No server, database or login is required. The builders run in the browser, autos
 ## Builder Pages
 
 - [Film profile](./builders/film-profile.html)
+- [Theme and motif](./builders/theme-motif.html)
 - [Documentary research angle](./builders/research-angle.html)
 - [Source trail](./builders/source-trail.html)
 - [Character / subject](./builders/character-subject.html)
-- [Theme and motif](./builders/theme-motif.html)
 - [Interview questions](./builders/interview-questions.html)
-- [Viewing notes](./builders/viewing-notes.html)
 - [Scene analysis](./builders/scene-analysis.html)
+- [Run sheet](./builders/runsheet.html)
 - [Festival entry navigator](./builders/festival-entry.html)
-- [Discussion run sheet](./builders/runsheet.html)
+- [Viewing notes](./builders/viewing-notes.html)
 - [Screening / public event](./builders/event-notes.html)
 - [Follow-up action](./builders/follow-up-action.html)
 - [Agent handoff](./builders/handoff.html)

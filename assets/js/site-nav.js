@@ -17,15 +17,15 @@
 
     const flowOrder = [
       "film-profile.html",
+      "theme-motif.html",
       "research-angle.html",
       "source-trail.html",
       "character-subject.html",
-      "theme-motif.html",
       "interview-questions.html",
-      "viewing-notes.html",
       "scene-analysis.html",
-      "festival-entry.html",
       "runsheet.html",
+      "festival-entry.html",
+      "viewing-notes.html",
       "event-notes.html",
       "follow-up-action.html",
       "handoff.html"

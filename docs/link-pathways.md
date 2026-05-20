@@ -16,34 +16,39 @@ Use this order when you want the tool to behave like a documentary workflow rath
 1. Film profile
 2. Documentary research angle
 3. Source trail
-4. Interview questions
-5. Viewing notes
-6. Scene analysis
-7. Character / subject
-8. Theme and motif
+4. Character / subject
+5. Theme and motif
+6. Interview questions
+7. Viewing notes
+8. Scene analysis
 9. Festival entry navigator
 10. Discussion run sheet
 11. Screening / public event
 12. Follow-up action
 13. Agent handoff
 
-## Setup And Evidence Lane
+## Foundation Lane
 
-Use this before the viewing or before the film is complete. It sets up the film, the claims and the questions without pretending a finished screening has already happened.
+Use this before the viewing or before the film is complete. It sets up the film and the research question without pretending a finished screening has already happened.
 
 1. Film profile
 2. Documentary research angle
-3. Source trail
+
+## Research Map Lane
+
+Use this while the project is still being understood. It gathers sources, people, themes and questions before anyone treats the film as complete.
+
+1. Source trail
+2. Character / subject
+3. Theme and motif
 4. Interview questions
 
-## Viewing And Analysis Lane
+## Watchable Cut Review Lane
 
 Use this after there is something to watch: a rough cut, screening copy, festival version, public release or completed film.
 
 1. Viewing notes
 2. Scene analysis
-3. Character / subject
-4. Theme and motif
 
 ## Festival Entry Lane
 
@@ -60,7 +65,12 @@ Use this when a screening, article, episode, workshop or public follow-up needs 
 1. Discussion run sheet
 2. Screening / public event
 3. Follow-up action
-4. Agent handoff
+
+## Agent Handoff Lane
+
+Use this when another agent, collaborator or future session needs the exact task, source pack, boundaries and acceptance check.
+
+1. Agent handoff
 
 ## Optional Research Return
 
@@ -73,7 +83,7 @@ After viewing, loop back to source trail or interview questions if a scene revea
 
 ## Cross Links That Matter
 
-- Film profile can feed research angle, source trail and interview prep before anyone watches a finished cut.
+- Film profile can feed research angle, source trail, subject mapping, theme mapping and interview prep before anyone watches a finished cut.
 - Viewing notes can feed scene analysis, theme and motif, source trail and runsheet pages.
 - Scene analysis can feed source trails, interview questions and public discussion prompts.
 - Festival entry notes can feed public event planning, press kits, follow-up actions and agent shortlist tasks.

@@ -6,7 +6,7 @@ It helps turn film notes, documentary research, scene evidence, source trails, i
 
 ## Open The Tool
 
-Open [index.html](./index.html) in a browser, then move into [builders/index.html](./builders/index.html).
+Open [index.html](./index.html) in a browser, then move into [builders/index.html](./builders/index.html) or the public [workflow page](./pathways.html).
 
 No server, database or login is required. The builders run in the browser, autosave locally, and only create files when you copy or download the generated Markdown.
 
@@ -29,13 +29,15 @@ No server, database or login is required. The builders run in the browser, autos
 ## Folder Map
 
 - `index.html` - compact gateway into the workbench.
+- `pathways.html` - public HTML workflow and link pathway page.
+- `boundaries.html` - public HTML guide for public/private review.
 - `builders/` - one page per builder plus the builder directory.
 - `assets/css/` - shared site styling.
 - `assets/js/` - shared navigation, builder data and builder behaviour.
 - `assets/img/` - local WebP visual assets.
-- `templates/` - Markdown template notes for humans and agents.
+- `templates/` - public template page plus Markdown template notes for humans and agents.
 - `drafts/` - safe place to keep local draft outputs if useful.
-- `docs/` - repo map, public/private boundaries and link pathways.
+- `docs/` - source and maintenance notes for humans and future agents.
 
 ## Boundaries
 
@@ -43,7 +45,9 @@ Drafts are clearly labelled as drafts. Source and date fields are visible where 
 
 ## Useful Docs
 
-- [Link pathways](./docs/link-pathways.md)
+- [Public workflow page](./pathways.html)
+- [Source link pathways note](./docs/link-pathways.md)
 - [Festival entry questions](./docs/festival-entry-questions.md)
-- [Public/private boundaries](./docs/public-private-boundaries.md)
+- [Public boundary page](./boundaries.html)
+- [Source public/private boundaries note](./docs/public-private-boundaries.md)
 - [Repo map](./docs/repo-map.md)

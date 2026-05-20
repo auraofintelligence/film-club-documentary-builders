@@ -27,7 +27,7 @@
       prefix: "film-profile",
       destination: "Save to drafts/film-profiles/ or the relevant film folder.",
       note: "Title, claim, makers, representation, gaps and source starting points.",
-      art: "../assets/img/film-poster.webp",
+      art: "../assets/img/documentary-workbench.webp",
       titleField: "filmTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -70,7 +70,7 @@
       prefix: "viewing-notes",
       destination: "Save to drafts/viewing-notes/ or the relevant film folder.",
       note: "Use after the film is watchable: rough cut, screening copy, festival version or completed release.",
-      art: "../assets/img/film-reel.webp",
+      art: "../assets/img/documentary-tools.webp",
       titleField: "filmTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -114,7 +114,7 @@
       prefix: "scene-analysis",
       destination: "Save to drafts/scene-analysis/.",
       note: "Timestamp, evidence, implication, uncertainty, film language and public use.",
-      art: "../assets/img/on-air-camera.webp",
+      art: "../assets/img/documentary-pathways.webp",
       titleField: "sceneTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -156,7 +156,7 @@
       prefix: "subject",
       destination: "Save to drafts/subjects/.",
       note: "Representation, voice, agency, risk, missing context and interview questions.",
-      art: "../assets/img/research-detective.webp",
+      art: "../assets/img/documentary-pathways.webp",
       titleField: "subjectName",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -203,7 +203,7 @@
       prefix: "theme-motif",
       destination: "Save to drafts/themes/.",
       note: "Themes, motifs, repeated images, counter-evidence and audience questions.",
-      art: "../assets/img/film-reel.webp",
+      art: "../assets/img/documentary-tools.webp",
       titleField: "themeName",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -244,7 +244,7 @@
       prefix: "festival-entry",
       destination: "Save to drafts/festival-entries/.",
       note: "Use after there is a watchable or near-final cut: compare FilmFreeway fit, fees, deadlines and red flags.",
-      art: "../assets/img/film-poster.webp",
+      art: "../assets/img/documentary-workbench.webp",
       titleField: "festivalName",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -301,7 +301,7 @@
       prefix: "research-angle",
       destination: "Save to drafts/research-angles/.",
       note: "Research question, claim to test, known sources, missing sources and expertise needed.",
-      art: "../assets/img/research-detective.webp",
+      art: "../assets/img/documentary-pathways.webp",
       titleField: "researchQuestion",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -346,7 +346,7 @@
       prefix: "source-trail",
       destination: "Save to drafts/source-trails/.",
       note: "Source details, access date, linked claim, support, limits and citation notes.",
-      art: "../assets/img/research-detective.webp",
+      art: "../assets/img/documentary-pathways.webp",
       titleField: "sourceTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -391,7 +391,7 @@
       prefix: "interview-questions",
       destination: "Save to drafts/interviews/.",
       note: "Questions for filmmakers, subjects, critics, local experts and audiences.",
-      art: "../assets/img/on-air-camera.webp",
+      art: "../assets/img/documentary-tools.webp",
       titleField: "interviewTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -441,7 +441,7 @@
       prefix: "film-assembly-runsheet",
       destination: "Save to drafts/assembly-runsheets/.",
       note: "Scene order, evidence beats, transitions, gaps, pickups, cuts and next edit decisions.",
-      art: "../assets/img/film-reel.webp",
+      art: "../assets/img/documentary-pathways.webp",
       titleField: "assemblyTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -491,7 +491,7 @@
       prefix: "event-notes",
       destination: "Save to drafts/events/.",
       note: "Venue, permissions, audience, access, questions, responses and follow-up.",
-      art: "../assets/img/film-poster.webp",
+      art: "../assets/img/documentary-workbench.webp",
       titleField: "eventTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -540,7 +540,7 @@
       prefix: "follow-up",
       destination: "Save to drafts/follow-ups/.",
       note: "Public page candidates, articles, episodes, workshops, research trails and private actions.",
-      art: "../assets/img/on-air-camera.webp",
+      art: "../assets/img/documentary-pathways.webp",
       titleField: "followupTitle",
       fields: [
         select("status", "Status", statusOptions(), "draft for human review"),
@@ -584,7 +584,7 @@
       prefix: "agent-handoff",
       destination: "Save to drafts/handoffs/.",
       note: "Task packet, allowed sources, boundaries, output expectations and acceptance check.",
-      art: "../assets/img/research-detective.webp",
+      art: "../assets/img/documentary-tools.webp",
       titleField: "handoffTitle",
       fields: [
         select("status", "Status", ["draft for human review", "ready for agent", "in progress", "done", "parked"], "draft for human review"),

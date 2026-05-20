@@ -50,6 +50,13 @@ a {
   color: inherit;
 }
 
+code {
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
 .skip-link {
   background: var(--ink);
   color: #ffffff;
@@ -288,6 +295,7 @@ a {
 }
 
 .visual-board img {
+  aspect-ratio: 3 / 2;
   display: block;
   height: auto;
   object-fit: cover;

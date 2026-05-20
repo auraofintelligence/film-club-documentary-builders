@@ -20,6 +20,7 @@ No server, database or login is required. The builders run in the browser, autos
 - [Scene analysis](./builders/scene-analysis.html)
 - [Character / subject](./builders/character-subject.html)
 - [Theme and motif](./builders/theme-motif.html)
+- [Festival entry navigator](./builders/festival-entry.html)
 - [Discussion run sheet](./builders/runsheet.html)
 - [Screening / public event](./builders/event-notes.html)
 - [Follow-up action](./builders/follow-up-action.html)
@@ -43,5 +44,6 @@ Drafts are clearly labelled as drafts. Source and date fields are visible where 
 ## Useful Docs
 
 - [Link pathways](./docs/link-pathways.md)
+- [Festival entry questions](./docs/festival-entry-questions.md)
 - [Public/private boundaries](./docs/public-private-boundaries.md)
 - [Repo map](./docs/repo-map.md)

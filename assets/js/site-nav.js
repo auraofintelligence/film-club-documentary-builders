@@ -24,6 +24,7 @@
       "scene-analysis.html",
       "character-subject.html",
       "theme-motif.html",
+      "festival-entry.html",
       "runsheet.html",
       "event-notes.html",
       "follow-up-action.html",

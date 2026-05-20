@@ -21,10 +21,11 @@ Use this order when you want the tool to behave like a documentary workflow rath
 6. Scene analysis
 7. Character / subject
 8. Theme and motif
-9. Discussion run sheet
-10. Screening / public event
-11. Follow-up action
-12. Agent handoff
+9. Festival entry navigator
+10. Discussion run sheet
+11. Screening / public event
+12. Follow-up action
+13. Agent handoff
 
 ## Setup And Evidence Lane
 
@@ -43,6 +44,14 @@ Use this after there is something to watch: a rough cut, screening copy, festiva
 2. Scene analysis
 3. Character / subject
 4. Theme and motif
+
+## Festival Entry Lane
+
+Use this after the film is close enough to submit or when a rough cut needs a festival-readiness check. It helps choose FilmFreeway options by fit, rules, fees, deadline, category, materials and red flags.
+
+1. Festival entry navigator
+2. Source trail if the listing or rules need checking
+3. Agent handoff if someone needs to build a shortlist
 
 ## Public Discussion Lane
 
@@ -67,6 +76,7 @@ After viewing, loop back to source trail or interview questions if a scene revea
 - Film profile can feed research angle, source trail and interview prep before anyone watches a finished cut.
 - Viewing notes can feed scene analysis, theme and motif, source trail and runsheet pages.
 - Scene analysis can feed source trails, interview questions and public discussion prompts.
+- Festival entry notes can feed public event planning, press kits, follow-up actions and agent shortlist tasks.
 - Source trails should feed research angles, public follow-up pages and agent handoffs.
 - Event notes should feed follow-up actions and public-facing summary drafts.
 - Handoffs should name the exact source pages and builder outputs an agent may use.

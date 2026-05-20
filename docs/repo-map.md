@@ -4,7 +4,7 @@
 
 - `index.html` - gateway and lane summary.
 - `builders/index.html` - builder directory.
-- `builders/*.html` - individual Markdown builder pages.
+- `builders/*.html` - individual Markdown builder pages, including the festival entry navigator.
 
 ## Shared Assets
 
@@ -21,4 +21,3 @@
 - `templates/` - starter Markdown patterns.
 - `drafts/` - optional local holding area for downloaded outputs.
 - `docs/` - plain-language guidance for humans and future agents.
-

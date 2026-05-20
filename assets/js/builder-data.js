@@ -2,6 +2,7 @@
   const lanes = {
     setup: "Setup and evidence",
     viewing: "Viewing and analysis",
+    festival: "Festival entry",
     public: "Public discussion",
     handoff: "Agent handoff"
   };
@@ -231,6 +232,63 @@
         sec("Next Useful Action", "nextAction")
       ],
       reviewQuestions: sharedReviewQuestions
+    }),
+    builder({
+      key: "festival-entry",
+      page: "festival-entry.html",
+      label: "Festival Entry Navigator",
+      title: "Film festival entry navigator",
+      heading: "Choose festival entries by fit, evidence and cost, not panic scrolling.",
+      lane: lanes.festival,
+      prefix: "festival-entry",
+      destination: "Save to drafts/festival-entries/.",
+      note: "Compare FilmFreeway options, category fit, deadlines, fees, readiness and red flags.",
+      art: "../assets/img/film-poster.webp",
+      titleField: "festivalName",
+      fields: [
+        select("status", "Status", statusOptions(), "draft for human review"),
+        select("visibility", "Public/private posture", visibilityOptions(), "private working note"),
+        text("filmTitle", "Film title"),
+        select("projectStatus", "Project status", ["idea / planning", "rough cut", "fine cut", "finished film", "festival-ready package"], "rough cut"),
+        text("runtime", "Runtime"),
+        date("completionDate", "Completion date"),
+        select("premiereStatus", "Premiere status", ["no public premiere yet", "local screening only", "online public release", "already premiered", "not sure"], "not sure"),
+        text("festivalName", "Festival or FilmFreeway listing"),
+        select("eventType", "Event type", ["physical film festival", "online festival / awards event", "documentary category", "short film category", "student / youth category", "regional / local festival", "genre / theme festival", "other"], "physical film festival"),
+        select("targetOutcome", "Why submit?", ["audience and community", "industry networking", "awards / laurels", "distribution or sales", "learning feedback", "local cultural fit", "mixed"], "mixed"),
+        area("categoryFit", "Category fit", "Runtime, genre, documentary type, student/youth, local, Indigenous/cultural, environmental, music, experimental or other category match."),
+        area("eligibilityRules", "Eligibility, premiere and rule checks"),
+        area("deadlineFee", "Deadline, fee and currency", "Earlybird, regular, late, Gold discount, waiver, total spend and refund notes."),
+        area("materialsReady", "Submission materials ready", "Screener, trailer, poster, stills, synopsis, director bio, credits, subtitles, captions, DCP or press kit."),
+        area("rightsClearance", "Rights and permissions check", "Music, archive, appearances, location releases, cultural review, insurance or distribution conflicts."),
+        area("audienceFit", "Audience and festival fit"),
+        area("travelPlan", "Travel, Q&A or screening support"),
+        area("redFlags", "Red flags or questions before paying", "Venue missing, no past winners, unclear team, too many paid award categories, unrealistic promises, poor reviews, unclear refunds."),
+        area("shortlistScore", "Shortlist score and reason", "Example: 8/10 because strong documentary category, clear venue, affordable early deadline and audience fit."),
+        select("submitDecision", "Submit decision", ["do not submit yet", "watch list", "ask organiser first", "submit if budget allows", "submit now"], "watch list"),
+        area("nextAction", "Next useful action")
+      ],
+      sections: [
+        sec("Film And Festival", ["filmTitle", "projectStatus", "runtime", "completionDate", "premiereStatus", "festivalName", "eventType", "targetOutcome", "submitDecision"]),
+        sec("Category Fit", "categoryFit"),
+        sec("Eligibility Premiere And Rule Checks", "eligibilityRules"),
+        sec("Deadline Fee And Currency", "deadlineFee"),
+        list("Submission Materials Ready", "materialsReady"),
+        sec("Rights And Permissions Check", "rightsClearance"),
+        sec("Audience And Festival Fit", "audienceFit"),
+        sec("Travel Q And A Or Screening Support", "travelPlan"),
+        list("Red Flags Or Questions Before Paying", "redFlags"),
+        sec("Shortlist Score And Reason", "shortlistScore"),
+        sec("Next Useful Action", "nextAction")
+      ],
+      reviewQuestions: [
+        "Is there a real audience, screening, venue or clear online event format?",
+        "Does the film match runtime, category, completion date, premiere and eligibility rules?",
+        "What is the fee, deadline, currency and refund posture?",
+        "Are screener, poster, stills, synopsis, captions/subtitles and rights clearances ready?",
+        "What is the reason to submit beyond chasing a laurel?",
+        "Which red flags or unanswered questions should be checked before paying?"
+      ]
     }),
     builder({
       key: "research-angle",
@@ -731,6 +789,7 @@
     "scene-analysis",
     "character-subject",
     "theme-motif",
+    "festival-entry",
     "runsheet",
     "event-notes",
     "follow-up-action",

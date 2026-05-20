@@ -708,8 +708,9 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .builder-page .side-nav,
   .side-nav {
-    display: none;
+    display: none !important;
   }
 }
 

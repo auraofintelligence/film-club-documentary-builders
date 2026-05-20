@@ -709,20 +709,7 @@ a {
   }
 
   .side-nav {
-    position: static;
-  }
-
-  .side-nav a span {
     display: none;
-  }
-
-  .side-nav {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .side-nav-title,
-  .side-note {
-    grid-column: 1 / -1;
   }
 }
 
@@ -776,10 +763,6 @@ a {
   .brand-mark {
     height: 50px;
     width: 50px;
-  }
-
-  .side-nav {
-    grid-template-columns: 1fr;
   }
 
   .form-heading,

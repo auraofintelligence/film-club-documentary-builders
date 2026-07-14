@@ -7,6 +7,7 @@
     const current = new URL(window.location.href);
     document.querySelectorAll(".site-nav a").forEach((link) => {
       const linkUrl = new URL(link.getAttribute("href"), window.location.href);
+      if (linkUrl.pathname.endsWith("/pathways.html")) link.textContent = "Terrain map";
       if (samePage(linkUrl, current)) link.classList.add("active");
     });
   }

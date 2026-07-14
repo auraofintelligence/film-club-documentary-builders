@@ -6,7 +6,7 @@ It helps turn film notes, documentary research, scene evidence, source trails, i
 
 ## Open The Tool
 
-Open [index.html](./index.html) in a browser, then move into [builders/index.html](./builders/index.html) or the public [workflow page](./pathways.html).
+Open [index.html](./index.html) in a browser, then move into [builders/index.html](./builders/index.html) or the public [terrain map](./pathways.html).
 
 No server, database or login is required. The builders run in the browser, autosave locally, and only create files when you copy or download the generated Markdown.
 
@@ -29,7 +29,7 @@ No server, database or login is required. The builders run in the browser, autos
 ## Folder Map
 
 - `index.html` - compact gateway into the workbench.
-- `pathways.html` - public HTML workflow and link pathway page.
+- `pathways.html` - loose GenAI-illustrated terrain map with optional builder trailheads.
 - `boundaries.html` - public HTML guide for public/private review.
 - `builders/` - one page per builder plus the builder directory.
 - `assets/css/` - shared site styling.
@@ -45,7 +45,7 @@ Drafts are clearly labelled as drafts. Source and date fields are visible where 
 
 ## Useful Docs
 
-- [Public workflow page](./pathways.html)
+- [Public terrain map](./pathways.html)
 - [Source link pathways note](./docs/link-pathways.md)
 - [Festival entry questions](./docs/festival-entry-questions.md)
 - [Public boundary page](./boundaries.html)

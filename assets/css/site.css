@@ -310,6 +310,56 @@ code {
   padding: 12px 14px;
 }
 
+.terrain-map-figure {
+  background: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: var(--shadow);
+  margin: 8px 0 18px;
+  overflow: hidden;
+}
+
+.terrain-map-figure img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.terrain-map-figure figcaption {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.92rem;
+  margin: 0;
+  padding: 12px 14px;
+}
+
+.terrain-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 22px;
+}
+
+.terrain-grid article {
+  background: var(--surface-warm);
+  border: 1px solid #ead7b8;
+  border-radius: var(--radius);
+  padding: 15px;
+}
+
+.terrain-grid span {
+  color: var(--green);
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.terrain-grid p {
+  color: var(--muted);
+  margin: 6px 0 0;
+}
+
 .lane-band,
 .note-band,
 .boundary-strip {
@@ -737,6 +787,7 @@ code {
   .lane-grid,
   .builder-grid,
   .resource-grid,
+  .terrain-grid,
   .boundary-strip {
     grid-template-columns: 1fr;
   }

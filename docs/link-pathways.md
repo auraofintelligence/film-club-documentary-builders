@@ -1,98 +1,45 @@
 # Link Pathways
 
-This repo is intentionally multi-page. The index is a gateway, not the whole tool.
+This repo is intentionally multi-page. The index is a gateway, not the whole tool, and the terrain map is a set of possibilities rather than a required workflow.
 
-## Main Visitor Path
+## Main Visitor Paths
 
-1. `index.html` introduces the workbench and links to the builder directory.
-2. `builders/index.html` groups the builders into practical lanes.
-3. Each builder page has previous/next links for sequential review.
-4. Generated Markdown can be copied, downloaded, or handed to a future agent.
+- Open the builder directory and choose the note that helps now.
+- Explore `pathways.html` when the project needs a wider view of the terrain.
+- Move between previous and next builders when browsing sequentially feels useful.
+- Copy or download any generated Markdown without completing the rest of the suite.
 
-## Full Flow
+## Loose Terrain
 
-Use this order when you want the tool to behave like a documentary workflow rather than a loose folder of forms.
+The builders sit around six broad activities:
 
-1. Film profile
-2. Theme and motif
-3. Documentary research angle
-4. Source trail
-5. Character / subject
-6. Interview questions
-7. Scene analysis
-8. Run sheet
-9. Festival entry navigator
-10. Viewing notes
-11. Screening / public event
-12. Follow-up action
-13. Agent handoff
+- Make: film profile and theme or motif.
+- Gather: research angle, sources, people and interview questions.
+- Trace: source trails and scene evidence.
+- Shape: scene analysis and film assembly.
+- Notice: viewing notes, questions, uncertainty and boundaries.
+- Share: festivals, events, follow-up and handoffs.
 
-## Foundation Lane
+These are navigation labels, not stages. A creator can start with a rough cut, a source, a screening, a person, a question or a handoff. Loops and skipped areas are normal.
 
-Use this before the work expands. It sets up the film and the theme/motif frame before the research question is narrowed.
+## Useful Cross-Links
 
-1. Film profile
-2. Theme and motif
+- Film profiles can feed themes, research angles, source trails, subject mapping or interview prep.
+- Themes can feed research, scene analysis, interview questions or assembly prompts.
+- Viewing notes can feed event notes, follow-up pages or a new research return.
+- Scene analysis can feed source trails, interview questions or public discussion prompts.
+- Festival notes can feed event planning, press kits, follow-up actions or shortlist tasks.
+- Source trails can feed research angles, public follow-up pages or agent handoffs.
+- Event notes can feed follow-up actions or public-facing summary drafts.
+- Handoffs can name whichever source pages and builder outputs are actually useful.
 
-## Research Map Lane
+## Optional Overlays
 
-Use this while the project is still being understood. It gathers the research angle, sources, people and questions before any public plan hardens.
+A festival, prize, school, funder, platform, archive, community partner or culturally sensitive project may add tighter conditions. Those rules belong to that event or project and should not be presented as the universal default for this open toolkit.
 
-1. Documentary research angle
-2. Source trail
-3. Character / subject
-4. Interview questions
+## Public And Private Terrain
 
-## Scene Analysis And Assembly Lane
+- Often straightforward after a quick look: film titles, public event details, reviewed source links, general discussion questions and public-safe follow-up ideas.
+- Worth another thought: personal notes, sensitive contacts, protected places, cultural permissions, uncertain claims, raw local paths, internal planning or unresolved disagreements.
 
-Use this when the scene evidence needs to become a usable film order.
-
-1. Scene analysis
-2. Run sheet
-
-## Festival Entry Lane
-
-Use this after the film is close enough to submit or when a rough cut needs a festival-readiness check. It helps choose FilmFreeway options by fit, rules, fees, deadline, category, materials and red flags.
-
-1. Festival entry navigator
-2. Source trail if the listing or rules need checking
-3. Agent handoff if someone needs to build a shortlist
-
-## Viewing And Follow-Up Lane
-
-Use this when a viewing, screening, article, workshop or public follow-up needs to be recorded after the plan exists.
-
-1. Viewing notes
-2. Screening / public event
-3. Follow-up action
-
-## Agent Handoff Lane
-
-Use this when another agent, collaborator or future session needs the exact task, source pack, boundaries and acceptance check.
-
-1. Agent handoff
-
-## Optional Research Return
-
-After viewing, loop back to source trail or interview questions if a scene reveals a new claim, gap, contradiction or missing voice.
-
-1. Viewing notes
-2. Scene analysis
-3. Source trail
-4. Interview questions
-
-## Cross Links That Matter
-
-- Film profile can feed theme and motif, research angle, source trail, subject mapping and interview prep.
-- Theme and motif can feed research angle, scene analysis, interview questions and run sheet prompts.
-- Viewing notes can feed event notes, follow-up pages and future research returns.
-- Scene analysis can feed source trails, interview questions and public discussion prompts.
-- Festival entry notes can feed public event planning, press kits, follow-up actions and agent shortlist tasks.
-- Source trails should feed research angles, public follow-up pages and agent handoffs.
-- Event notes should feed follow-up actions and public-facing summary drafts.
-- Handoffs should name the exact source pages and builder outputs an agent may use.
-
-## Public/Private Routing
-
-- Public candidates: film title, public screening details, reviewed source links, public discussion questions, public-safe follow-up actions.
-- Private or review-needed: personal notes, sensitive contact details, protected places, cultural permissions, unverified claims, raw local paths, internal planning and unresolved disagreements.
+The creator decides which path fits. The toolkit offers prompts and breadcrumbs, not an approval gate.
